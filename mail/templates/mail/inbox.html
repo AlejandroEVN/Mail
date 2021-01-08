@@ -1,0 +1,53 @@
+{% extends "mail/layout.html" %}
+{% load static %}
+
+{% block header %}
+<div class="container-fluid col-9 col-lg-8 mt-3 menu">
+    <div class="card card-thumbnail shadow p-3">
+        <h4>Welcome back, {{ request.user.email }}</h4>
+
+        <div class="container m-auto">
+            <span><button class="btn btn-sm btn-outline-info" id="inbox">Inbox</button></span>
+            <span><button class="btn btn-sm btn-outline-success" id="compose">Compose</button></span>
+            <span><button class="btn btn-sm btn-outline-info" id="sent">Sent</button></span>
+            <span><button class="btn btn-sm btn-outline-info" id="archived">Archived</button></span>
+            <span><a class="btn btn-sm btn-outline-danger" href="{% url 'logout' %}">Log Out</a></span>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block body %}
+<div class="w-100">
+
+    <div id="emails-view" class="card card-thumbnail shadow p-3 align-self-center"></div>
+
+    <div id="compose-view" class="card card-thumbnail shadow p-3 mb-2">
+        <h3>New Email</h3>
+        <div id="error"></div>
+        <form id="compose-form">
+            <div class="form-group">
+                From: <input disabled class="form-control" value="{{ request.user.email }}">
+            </div>
+            <div class="form-group">
+                To: <input id="compose-recipients" class="form-control">
+            </div>
+            <div class="form-group">
+                <input class="form-control my-2" id="compose-subject" placeholder="Subject">
+            </div>
+            <textarea class="form-control" id="compose-body" placeholder="Body"></textarea>
+            <button type="submit" class="btn btn-sm btn-success mt-2">
+                <span class="material-icons" style="font-size:small">send</span>
+                <span class="ms-1">Send</span>
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'mail/fetch.js' %}"></script>
+    <script src="{% static 'mail/inbox.js' %}"></script>
+    <script src="{% static 'mail/compose.js' %}"></script>
+{% endblock %}
