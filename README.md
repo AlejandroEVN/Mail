@@ -13,8 +13,11 @@ and received from the backend is through API endpoints and then rendered using J
 `url: /`
 Main page. Redirects to Login page or Inbox (whether user is authenticated or not).
 
-`url: /login` `url: /logout` `url: /register`
+`url: /login` `url: /register`
 Renders corresponding HTML.
+
+`url: /logout`
+Logs out users.
 
 `url: /emails/send`
 API endpoint to send an email
