@@ -17,7 +17,6 @@ Main page. Redirects to Login page or Inbox (whether user is authenticated or no
 Renders corresponding HTML.
 
 `url: /logout`
-Logs out users.
 
 `url: /emails/send`
 API endpoint to send an email
