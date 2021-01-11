@@ -33,7 +33,7 @@ API endpoint to load emails list from either Inbox, Sent or Archived mailbox
 #### Installation
 
 - Clone into your machine
-- Open cmd
+- Open a terminal
 - Cd into projects' folder
 - Run `pip install requirements.txt` (ideally in a virtual environment)
 - Run `py manage.py runserver`
