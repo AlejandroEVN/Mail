@@ -8,9 +8,9 @@ Most of the project is done as a Single Page application. Made with vanilla Java
 and received from the backend is through API endpoints and then rendered using JavaScript.
 
 #### Demo
-![Mail](./mail/demo/mail.gif)
-![Mail](./mail/demo/mail-functionality.gif)
-<img src="./mail/demo/mail-send2.gif" width="640" height="360" />
+<img src="./mail/demo/mail.gif" width="960" height="540" />
+<img src="./mail/demo/mail-send2.gif" width="960" height="540" />
+<img src="./mail/demo/mail-functionality.gif" width="960" height="540" />
 
 #### Routes
 
