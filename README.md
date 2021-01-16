@@ -7,6 +7,8 @@ This is an email app. Users can send, receive, reply, archive or delete emails f
 Most of the project is done as a Single Page application. Made with vanilla JavaScript. Once the user is logged in, all the data sent
 and received from the backend is through API endpoints and then rendered using JavaScript.
 
+#### Demo
+(Mail)[https://gfycat.com/forcefulinfinitekestrel.gif]
 
 #### Routes
 
