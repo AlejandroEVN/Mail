@@ -8,7 +8,9 @@ Most of the project is done as a Single Page application. Made with vanilla Java
 and received from the backend is through API endpoints and then rendered using JavaScript.
 
 #### Demo
-![Mail](https://gfycat.com/forcefulinfinitekestrel.gif)
+![Mail](https://github.com/AlejandroEVN/Mail/mail/demo/mail.gif)
+![Mail](https://github.com/AlejandroEVN/Mail/mail/demo/mail-functionality.gif)
+![Mail](https://github.com/AlejandroEVN/Mail/mail/demo/mail-send.gif)
 
 #### Routes
 
