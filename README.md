@@ -11,6 +11,7 @@ and received from the backend is through API endpoints and then rendered using J
 ![Mail](./mail/demo/mail.gif)
 ![Mail](./mail/demo/mail-functionality.gif)
 ![Mail](./mail/demo/mail-send.gif)
+<img src="./mail/demo/mail-send2.gif" width="350" height="250" />
 
 #### Routes
 
