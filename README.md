@@ -1,5 +1,3 @@
-## AlejandroEVN
-
 ### Project Mail 
 
 This is an email app. Users can send, receive, reply, archive or delete emails from their mailbox.
@@ -8,9 +6,9 @@ Most of the project is done as a Single Page application. Made with vanilla Java
 and received from the backend is through API endpoints and then rendered using JavaScript.
 
 #### Demo
-<img src="./mail/demo/mail.gif" width="960" height="540" />
-<img src="./mail/demo/mail-send2.gif" width="960" height="540" />
-<img src="./mail/demo/mail-functionality.gif" width="960" height="540" />
+<img src="./mail/demo/mail-demo1.gif" width="960" height="540" />
+<img src="./mail/demo/mail-demo2.gif" width="960" height="540" />
+<img src="./mail/demo/mail-demo3.gif" width="960" height="540" />
 
 #### Routes
 
