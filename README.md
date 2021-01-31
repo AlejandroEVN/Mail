@@ -5,6 +5,8 @@ This is an email app. Users can send, receive, reply, archive or delete emails f
 Most of the project is done as a Single Page application. Made with vanilla JavaScript. Once the user is logged in, all the data sent
 and received from the backend is through API endpoints and then rendered using JavaScript.
 
+The main objective of this project was to learn and understand how AJAX works and how to manage this front-end / back-end interaction.
+
 #### Demo
 <img src="./mail/demo/mail-demo1.gif" width="960" height="540" />
 <img src="./mail/demo/mail-demo2.gif" width="960" height="540" />
